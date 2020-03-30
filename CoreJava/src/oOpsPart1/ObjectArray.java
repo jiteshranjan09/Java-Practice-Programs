@@ -8,6 +8,8 @@ import java.util.Scanner;
 
 public class ObjectArray {
 	 Object ob[];
+	 
+	 //Constructor
 	 ObjectArray(int i) {
 		
 		  ob = new Object[i];
