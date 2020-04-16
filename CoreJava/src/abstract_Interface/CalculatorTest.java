@@ -1,0 +1,37 @@
+package abstract_Interface;
+
+public class CalculatorTest {
+
+	public static void main(String[] args) {
+
+		Calculator calc = new Calculator();
+		
+		calc.displayAddResult(1,4,2,1,5);
+		calc.displayAddResult(9.5,0.5);
+		
+		calc.displayMulResult(12,15,20);
+		calc.displayMulResult(5);
+		calc.displayMulResult();
+		
+		
+		calc.displayDivResult(10, 10);
+		calc.displayDivResult(10,0);
+		calc.displayDivResult(15, 12);
+		calc.displayDivResult(0,5);
+		
+		calc.displaySubResult(4,5,1,4,5);
+		calc.displaySubResult(4,5);
+		
+		AdvanceCalculator ACalc = new AdvanceCalculator();
+		
+		ACalc.squareroot(10);
+		
+		double Test =ACalc.add(1,4,2,1,5);
+		System.out.println(Test);
+		
+		
+		
+
+	}
+
+}
