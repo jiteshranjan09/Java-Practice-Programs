@@ -16,7 +16,6 @@ public class OnePlus {
 		ph.reset("LockDown");
 		BasicPhone.IMIENumber();
 		SmartPhone.getsignalStatus();
-
 	}
 
 }

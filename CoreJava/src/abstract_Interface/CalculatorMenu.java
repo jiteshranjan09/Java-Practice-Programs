@@ -6,6 +6,7 @@ public abstract class CalculatorMenu {
 		 System.out.println("Please wait while opening calculator");
 	 }
 	
+	
 	abstract double add(double ... Num);
 	
 	abstract float subtract(float ... Num);

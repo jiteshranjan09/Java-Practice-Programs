@@ -36,7 +36,7 @@ public class Calculator extends CalculatorMenu {
 		float sum=1;
 		
 		for(float x:Num) {
-			
+		
 			sum=sum*x;
 		}
 		

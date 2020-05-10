@@ -9,7 +9,7 @@ public class Phone extends AdvanceCalculator implements SmartPhone, BasicPhone  
 		System.out.println("Calling to..." + Phn_No);	
 		space();
 	}
-
+	
 	@Override
 	public void Radio() {
 		Scanner sc = new Scanner(System.in);

@@ -13,7 +13,7 @@ public interface BasicPhone {
 	public void messages();
 	
 	//Interface can have default method like class with the Keyword "Default"
-	
+
 	default void reset(String s) {
 		
 		switch (s) {

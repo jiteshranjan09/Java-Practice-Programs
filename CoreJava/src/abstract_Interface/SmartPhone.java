@@ -34,4 +34,5 @@ public interface SmartPhone extends  CalcAdvanceOption, BasicPhone {
 		
 		System.out.println("Good");
 	}
+	
 }

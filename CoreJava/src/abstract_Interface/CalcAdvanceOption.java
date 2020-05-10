@@ -7,5 +7,4 @@ public interface CalcAdvanceOption {
 	void cube(int num);
 	
 	
-	
 }

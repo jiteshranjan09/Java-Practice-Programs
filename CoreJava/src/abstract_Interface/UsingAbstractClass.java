@@ -20,6 +20,7 @@ abstract class Demo{
 		
 	}
 	
+
 	class DemoTest extends Demo{
 		Object ob3;
 		
