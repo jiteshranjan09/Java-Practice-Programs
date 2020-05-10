@@ -24,10 +24,25 @@ public class CalculatorTest {
 		
 		AdvanceCalculator ACalc = new AdvanceCalculator();
 		
-		ACalc.squareroot(10);
+		ACalc.square(10);
 		
 		double Test =ACalc.add(1,4,2,1,5);
 		System.out.println(Test);
+		
+		ACalc.circuleArea(10);
+		
+		//Accessing implementation using interface ref.
+		//By Doing this it is increasing security 
+		//Ref. variable only can access those method which is defined in interface
+		// Not able to access concreate class Method.
+		
+		CalcAdvanceOption Calc =new AdvanceCalculator();
+		
+		Calc.square(50);
+		
+		// Calc.circuleArea(10); Can't access by Calc reference 
+		
+	
 		
 		
 		
