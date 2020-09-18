@@ -8,7 +8,7 @@ public class ContinueCheck {
 		for(int i=0; i<=5 ; i++) {
 			System.out.print(i + " ");
 			if (i%2==0)
-			///System.out.println(i%2);
+			//System.out.println(i%2);
 				continue;
 			System.out.println(" ");
 		}

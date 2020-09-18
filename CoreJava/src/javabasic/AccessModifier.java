@@ -2,12 +2,14 @@ package javabasic;
 
 public class AccessModifier {
 	
+	//Instance variable -- define out side of method but inside a class
 	public int a;
 	private int b;
 	int c;
 	private int d, e;
 	
-	public void sum(int k) {
+	//local variable -- int k
+	public void sum(int k ) {
 		System.out.println(c);
 		b=k;
 		c=a+b;
