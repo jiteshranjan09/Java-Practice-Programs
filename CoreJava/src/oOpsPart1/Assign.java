@@ -10,11 +10,13 @@ public class Assign extends AssigningObjectReferenceVariable{
 		 
 		 A1.width=100;
 		 A1.depth=100;
+		 A1.height=80;
 		 A2.height=100;
 		 A2.width=0;
 		 
 		 System.out.println(A1.width*A1.depth*A2.height);
 		 System.out.println(A1.height);
+		 System.out.println(A2.width);
 		 
 		 
 		 AssigningObjectReferenceVariable box1 = new AssigningObjectReferenceVariable();

@@ -11,9 +11,10 @@ public class Facebook {
 	
 	
 	public static void main(String[] args) {
-		System.setProperty("webdriver.gecko.driver","C:\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		//WebDriver driver = new FirefoxDriver();
+		
+		System.setProperty("webdriver.gecko.driver","c:\\geckodriver.exe");
+	
+		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("https://www.facebook.com/");
 		

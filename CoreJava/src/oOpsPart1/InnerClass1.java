@@ -65,5 +65,6 @@ public class InnerClass1 {
 		System.out.println(o.display(55, 66));
 		double result = in.div();
 		System.out.println(result);
+		System.out.println(Outer.dispaytext());
 	}
 }

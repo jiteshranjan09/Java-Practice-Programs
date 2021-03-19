@@ -39,10 +39,17 @@ public class CopyConstructor {
 		CopyConstructor CC3 = new CopyConstructor(5);
 		//This is called as copy constructor 
 		CopyConstructor CC4 = new CopyConstructor(CC2);
+		//This is not a copy of object, just created a copy of the ref.
+		CopyConstructor CC5 = CC3;
 		CC2.volume();
 		CC4.volume();
 		CC1.volume();
 		CC3.volume();
+		CC5.volume();
+		//even if assigned reference points to other obj. like CC3 pointing to null.
+		CC3 =null;
+		CC5.volume();
+		
 	}
  
 }

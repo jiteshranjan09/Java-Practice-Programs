@@ -1,16 +1,16 @@
 package javabasic;
 
-
+import java.util.Scanner;
 
 public class PrimeNoCheckUsingForLoop {
 	
 	public static void main (String arg[]) {
 		
-		int num=92;
+		int num;
 		boolean Isprime;
 		
-		//Scanner sc = new Scanner(System.in);
-		//num = sc.nextInt();
+		Scanner sc = new Scanner(System.in);
+		num = sc.nextInt();
 		
 		if (num<2) {
 			Isprime = false;
@@ -19,7 +19,7 @@ public class PrimeNoCheckUsingForLoop {
 			Isprime = true;
 		
 		for (int i=2; i<num/i; i++) {
-			if (num % 2 == 0) {
+			if (num % i == 0) {
 				
 				Isprime = false;
 				break;

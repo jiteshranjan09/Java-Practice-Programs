@@ -6,6 +6,7 @@ public class TwoDArray {
 		
 	
 	String TwoD[][]= new String[5][3];
+	TwoD[0][0]="Time";
 	
 	//To Get the row count 
 	
@@ -14,6 +15,8 @@ public class TwoDArray {
 	//To Get the column count
 	
 	System.out.println(TwoD[1].length);
+	
+	System.out.println(TwoD[0][0]);
 	}
 
 }

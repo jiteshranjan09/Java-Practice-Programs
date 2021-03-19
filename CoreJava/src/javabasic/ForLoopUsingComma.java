@@ -20,8 +20,8 @@ public class ForLoopUsingComma {
 		 */
 	
 	int j=0;
-	for (;!done; ) {
-		System.out.println("j is" +j);
+	for (;!done;) {
+		System.out.println("j is " +j);
 		if (j==10) {
 			done=true;
 		}
